@@ -9,14 +9,13 @@ pull_request:
 branches:
 - main
 
+
 jobs:
 
-evaluate:
 
-```
-name: Evaluate Student Submission
-
-runs-on: ubuntu-latest
+  evaluate:
+    name:evaluate student submission
+    runs-on: ubuntu-latest
 
 steps:
 
@@ -83,4 +82,4 @@ steps:
       echo "======================================"
       echo "Evaluation Completed"
       echo "======================================"
-```
+
